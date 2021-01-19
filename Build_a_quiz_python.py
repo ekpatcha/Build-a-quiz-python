@@ -25,7 +25,7 @@ class quiz2():
     def __init__(self, atempts):
         self.atempts=atempts
     
-    # store questions and answers in a dictionary
+    # store questions and answers in a dictionary. The questions can be changed
     def enter_qns(self):
         dic= {"What is the one plus one? ":"2", "What is the capital of Togo? ":"lome",               "In which year is born Donald Trump? ":"1946"}
         return dic    
